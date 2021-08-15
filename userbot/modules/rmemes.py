@@ -1269,30 +1269,23 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "call":
+    if input_str == "badut":
 
         await event.edit(input_str)
 
         animation_chars = [
-            "`Menyambungkan telfon ke telegram...`",
-            "`telfon tersambung.`",
-            "`Telegram: Hallo anjing,ada afa menelfon ku?`",
-            f"`Me: Saya `@{DEFAULTUSER},`Ingin memberitahukan bahwa disini ada babu`",
-            "`Babu nya ngeselin`",
-            "`Aduh pokok nya babu nya goblok`",
-            "`telfon privasi terhubung...`",
-            "`Me: Hello Pulici saya ingin melaporkan bahwa disini ada babu`",
-            "`Pulici: Siapa ini?`",
-            f"`Me: Saya @{DEFAULTUSER} Goblok bgt pulici ",
-            "`Pulici: Oo iyah tenang biar saya urus babunya`",
-            "`Me: Asiappp Makasih pulici.`",
-            "`Pulici: Iya sama sama,telfon saya lagi nanti kalo ada babu`",
-            "`Me: Iya pulici, Saya juga lagi gabut aja nelpon anda`",
-            "`Pulici: oooooasuuuuuu GOBLOK`",
-            "`Me: Awowkwokwkkw Pulici nya goblok`",
-            "`Pulici: Dah lah anying Gajelas`",
-            "`Telpon Nya terputus.....`"]
-
+            "`hai badut...`",
+            "`badut gimana kabarnya?.`",
+            f"`masi sedih? `@{DEFAULTUSER},`",
+            "`udah badut gausah nangis`",
+            "`badut ko nangis `",
+            "`ayo dong ngelawak lagi`",
+            "`katanya kuat`",
+            "`ikhlas itu bohong`",
+            "`yang bener itu terpaksa`",
+            f"`udah ya badut  @{DEFAULTUSER} gausah nangis lagi ",
+            "` semangat lu pasti bisa`",
+            
         for i in animation_ttl:
 
             await asyncio.sleep(animation_interval)
