@@ -1286,7 +1286,7 @@ async def _(event):
             f"`udah ya badut  @{DEFAULTUSER} gausah nangis lagi ",
             "` semangat lu pasti bisa`",
             
-        for i in animation_ttl:
+     for i in animation_ttl:
 
             await asyncio.sleep(animation_interval)
 
