@@ -112,20 +112,22 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "gift":
+    if input_str == "kgn":
 
         await event.edit(input_str)
 
         animation_chars = [
             "**assalamualaikum**",
             "**haiikamuu**",
-            "iya kamu",
-            "siapa lagi coba😄",
-            "emm",
+            "**iya kamu**",
+            "**siapa lagi coba**😄",
+            "**emm**",
             "👉👈",
-            "gimana ya",
-            "
-            "tamat"]
+            "**gimana ya**",
+            "**mau tau ga**",
+            "**ini seriusan tau**",
+            "**cuma mau bilang kangen**",
+            "**hahaha**"]
 
         for i in animation_ttl:
 
