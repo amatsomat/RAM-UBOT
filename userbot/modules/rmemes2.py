@@ -165,7 +165,7 @@ EMOJIS = [
     "🍑",
     "🍆",
     "😩",
-    "😏",
+    "😏", 
     "👉👌",
     "👀",
     "👅",
@@ -1326,9 +1326,9 @@ async def love(event):
         return
 
 
-@register(outgoing=True, pattern="^.earth$")
+@register(outgoing=True, pattern="^.ber$")
 async def earth(event):
-    deq = deque(list("🌏🌍🌎🌎🌍🌏🌍🌎"))
+    deq = deque(list("🤙🥳🤙🥵🥳🤙"))
     try:
         for x in range(32):
             await sleep(0.1)
