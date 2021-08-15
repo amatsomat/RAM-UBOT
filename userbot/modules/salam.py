@@ -88,7 +88,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^G(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Gak keren lu begitu tolol, kuburan bapak lu gw gali buat dijadiin kolam renang anak paud.Cuihhhhh!!!**")
+    await typew.edit("**lucu ya kamu nyuruh aku jaga hati, tapi kamu nya friendly haha**")
 
 CMD_HELP.update({
     "salam":
