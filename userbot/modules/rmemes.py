@@ -29,25 +29,25 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "tol":
+    if input_str == "insecur":
 
         await event.edit(input_str)
 
         animation_chars = [
 
-            "Kontolll",
-            "Lo anak kontolll",
-            "Dibikin dari kontoll",
-            "Muka lo persis kontolll",
-            "Dasar anak NGONTOLLL!!!",
-            "Nolep kontoll",
-            "Ngerusuh kontoll",
-            "Bener bener kontoll",
-            "Padahal Lo gapunya kontolll",
-            "Karna Lo ga punya kontoll",
-            "Mending lo oprasi kontoll",
-            "Biar lo punya kontoll",
-            "Kasian cacat gada kontoll"
+            "bang sadar bang ",
+            "ingat lu engga goodloking",
+            "dia tuh ga se level sama lu",
+            "udah gausah terlalu berharap",
+            "orang tuanya aja pasti gabakal ngizinin sama lu!!!",
+            "mending lu mundur",
+            "introspeksi diri",
+            "dan udah",
+            "gausah ngarepin dia lagi",
+            "emg ya, sekarang fisik jadi penentu segalanya",
+            "dunia sekarang emg aneh",
+            "goodloking jadi patokan,",
+            "yahahaha emg kontol"
         ]
 
         for i in animation_ttl:
@@ -1276,14 +1276,14 @@ async def _(event):
         animation_chars = [
             "`hai badut...`",
             "`badut gimana kabarnya?.`",
-            f"`masi sedih? `@{DEFAULTUSER},`",
+            "`masi sedih?,`",
             "`udah badut gausah nangis`",
             "`badut ko nangis `",
             "`ayo dong ngelawak lagi`",
             "`katanya kuat`",
             "`ikhlas itu bohong`",
             "`yang bener itu terpaksa`",
-            f"`udah ya badut  @{DEFAULTUSER} gausah nangis lagi ",
+            "`udah ya badut gausah nangis lagi ",
             "` semangat lu pasti bisa`",]
             
         for i in animation_ttl:
