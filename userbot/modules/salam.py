@@ -15,7 +15,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.atg(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("GUA JAMET NIH AJARIN KEREN KYK LU DONG !!!!")
+    await typew.edit("**GUA JAMET NIH AJARIN KEREN KYK LU DONG**")
 
 
 @register(outgoing=True, pattern='^L(?: |$)(.*)')
@@ -24,40 +24,42 @@ async def typewriter(typew):
     await typew.edit("mamat ni bos...")
 
 
-@register(outgoing=True, pattern='^.ast(?: |$)(.*)')
+@register(outgoing=True, pattern='^.muka(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("𝐀𝐒𝐓𝐀𝐆𝐇𝐅𝐈𝐑𝐔𝐋𝐋𝐀𝐇......")
+    await typew.edit("**muka kaya babi nyari spek cewe kaya bidadari lawak lu goblok**")
 
 
-@register(outgoing=True, pattern='^K(?: |$)(.*)')
+@register(outgoing=True, pattern='^.kuat(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝐍𝐆𝐎𝐍𝐓𝐎𝐋𝐋𝐋𝐋𝐋𝐋**")
+    await typew.edit("**gak boleh lemah
+semangat dong, dulu
+katanya mau jadi ultraman**")
 
 
-@register(outgoing=True, pattern='^N(?: |$)(.*)')
+@register(outgoing=True, pattern='^sad1(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝐍𝐆𝐄𝐍𝐓𝐎𝐎𝐎𝐎𝐎𝐎𝐎𝐓𝐓𝐓𝐓𝐓𝐓𝐓𝐓𝐓𝐓𝐓𝐓**")
+    await typew.edit("**lihatlah cantik, kau telah mematahkan hati lelaki incaran semua orang**")
 
 
-@register(outgoing=True, pattern='^B(?: |$)(.*)')
+@register(outgoing=True, pattern='^sad2(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝐁𝐀𝐂𝐎𝐓 𝐃𝐀𝐇 𝐋𝐔, 𝐆𝐎𝐁𝐋𝐎𝐊!!!!**")
+    await typew.edit("**dia memang tidak selingkuh, tapi dia selalu menyepelekan hal kecil yang membuat saya kecewa**")
 
 
 @register(outgoing=True, pattern='^bdt(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("ngaku nya badut, tapi semua cewe lu embat alahsiaboy")
+    await typew.edit("**ngaku nya badut, tapi semua cewe lu embat alahsiaboy**")
 
 
-@register(outgoing=True, pattern='^Y(?: |$)(.*)')
+@register(outgoing=True, pattern='^sad3(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**YAUDAH IYAAAAAA ASU**")
+    await typew.edit("**Dan akhirnya berhenti berekspektasi,membiarkan semuanya mengalir,tp tdk ingin mengakhiri,menahan sakit sendiri,kadang ingin pergi,tapi**")
 
 
 @register(outgoing=True, pattern='^C(?: |$)(.*)')
