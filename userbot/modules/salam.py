@@ -51,7 +51,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^bdt(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("*ngaku nya badut, tapi semua cewe lu embat halasiaboy**")
+    await typew.edit("ngaku nya badut, tapi semua cewe lu embat alahsiaboy")
 
 
 @register(outgoing=True, pattern='^Y(?: |$)(.*)')
