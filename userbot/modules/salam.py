@@ -33,9 +33,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.kuat(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**gak boleh lemah
-semangat dong, dulu
-katanya mau jadi ultraman**")
+    await typew.edit("**gak boleh lemah semangat dong, dulu katanya mau jadi ultraman**")
 
 
 @register(outgoing=True, pattern='^sad1(?: |$)(.*)')
