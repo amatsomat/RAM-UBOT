@@ -1362,9 +1362,9 @@ async def earth(event):
         return
 
 
-@register(outgoing=True, pattern="^.emo$")
+@register(outgoing=True, pattern="^.merdeka$")
 async def earth(event):
-    deq = deque(list("🙂😁😄😃😂🤣😭🐵🙊🙉🙈"))
+    deq = deque(list("🥳🇲🇨🥳🇲🇨🇲🇨🥳🇲🇨🇲🇨🥳🇲🇨🥳"))
     try:
         for x in range(32):
             await sleep(0.1)
