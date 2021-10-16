@@ -29,25 +29,25 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "insecur":
+    if input_str == "ciasyg":
 
         await event.edit(input_str)
 
         animation_chars = [
 
-            "bang sadar bang ",
-            "ingat lu engga goodloking",
-            "dia tuh ga se level sama lu",
-            "udah gausah terlalu berharap",
-            "orang tuanya aja pasti gabakal ngizinin sama lu!!!",
-            "mending lu mundur",
-            "introspeksi diri",
-            "dan udah",
-            "gausah ngarepin dia lagi",
-            "emg ya, sekarang fisik jadi penentu segalanya",
-            "dunia sekarang emg aneh",
-            "goodloking jadi patokan,",
-            "yahahaha emg kontol"
+            "**hai**",
+            "**kamu tau ga**",
+            "**semenjak sama kamu**",
+            "**aku ngerasa jauh lebih baik**",
+            "**meskipun kamu gampang**",
+            "**badmood**",
+            "**ngambekan**",
+            "**suka ngamuk ngamuk kaya kingkong**",
+            "**intinya kamu**",
+            "**selebew,selemek,selentot banget**",
+            "**aku ada pantun buat kamu**",
+            "**ikan hiu makan tomat, ilovyou sayang**",
+            "**ciayang😍🥰💖😵💝🤤💖💝❤️😤❤️🥰💝💝🤤🤤💝💝🤤** "
         ]
 
         for i in animation_ttl:
