@@ -47,7 +47,7 @@ async def _(event):
             "**selebew,selemek,selentot banget**",
             "**aku ada pantun buat kamu**",
             "**ikan hiu makan tomat, ilovyou sayang**",
-            "**ciayang😍🥰💖😵💝🤤💖💝❤️😤❤️🥰💝💝🤤🤤💝💝🤤** "
+            "**ciayang😍💖😵💝🤤💖💝❤️😤❤️🥰💝💝🤤🤤💝💝🤤** "
         ]
 
         for i in animation_ttl:
