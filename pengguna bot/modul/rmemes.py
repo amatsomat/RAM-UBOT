@@ -460,7 +460,7 @@ async def _(event):
         await asyncio.sleep(2)
         await event.edit("😎😎😎")
         await asyncio.sleep(1)
-        await event.edit("hahahaha pantek😎😎😎")
+        await event.edit("hahahaha pantek 😎😎😎")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
