@@ -442,25 +442,25 @@ async def _(event):
             await event.edit(animation_chars[i % 24])
 
 
-@register(outgoing=True, pattern="^.gangstar(?: |$)(.*)")
+@register(outgoing=True, pattern="^.armapantek(?: |$)(.*)")
 async def _(event):
     if not event.text[0].isalpha() and event.text[0] not in (
             "/", "#", "@", "!"):
-        await event.edit("Hai Goblok")
+        await event.edit("**Hai arma pantek**")
         await asyncio.sleep(1)
-        await event.edit("Aku")
+        await event.edit("**Aku**")
         await asyncio.sleep(2)
-        await event.edit("Gangstar")
+        await event.edit("**Tuan mu**")
         await asyncio.sleep(1)
-        await event.edit("Sekarang ")
+        await event.edit("**Sekarang**")
         await asyncio.sleep(1)
-        await event.edit("KAMU ADALAH BABU")
+        await event.edit("**KAMU ADALAH BABU**")
         await asyncio.sleep(3)
-        await event.edit("Ku bunuh kau")
+        await event.edit("**Ku bunuh kau**")
         await asyncio.sleep(2)
         await event.edit("😎😎😎")
         await asyncio.sleep(1)
-        await event.edit("Mau gak gua bunuh? Woi kontol 😎😎😎")
+        await event.edit("**hahahaha pantek** 😎😎😎")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
