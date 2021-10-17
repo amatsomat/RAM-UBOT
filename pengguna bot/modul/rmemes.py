@@ -442,7 +442,7 @@ async def _(event):
             await event.edit(animation_chars[i % 24])
 
 
-@register(outgoing=True, pattern="^.armapantek(?: |$)(.*)")
+@register(outgoing=True, pattern="^armapantek(?: |$)(.*)")
 async def _(event):
     if not event.text[0].isalpha() and event.text[0] not in (
             "/", "#", "@", "!"):
