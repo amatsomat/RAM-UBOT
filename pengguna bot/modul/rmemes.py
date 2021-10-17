@@ -446,21 +446,21 @@ async def _(event):
 async def _(event):
     if not event.text[0].isalpha() and event.text[0] not in (
             "/", "#", "@", "!"):
-        await event.edit("**Hai arma pantek**")
+        await event.edit("Hai arma pantek")
         await asyncio.sleep(1)
-        await event.edit("**Aku**")
+        await event.edit("Aku")
         await asyncio.sleep(2)
-        await event.edit("**Tuan mu**")
+        await event.edit("Tuan mu")
         await asyncio.sleep(1)
-        await event.edit("**Sekarang**")
+        await event.edit("Sekarang")
         await asyncio.sleep(1)
-        await event.edit("**KAMU ADALAH BABU**")
+        await event.edit("KAMU ADALAH BABU")
         await asyncio.sleep(3)
-        await event.edit("**Ku bunuh kau**")
+        await event.edit("Ku bunuh kau")
         await asyncio.sleep(2)
         await event.edit("😎😎😎")
         await asyncio.sleep(1)
-        await event.edit("**hahahaha pantek** 😎😎😎")
+        await event.edit("hahahaha pantek😎😎😎")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
